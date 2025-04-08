@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; 
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+font-face {
+  font-family: 'BMHANNAPro', sans-serif;
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poor-story-regular {
+  font-family: "Poor Story", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+nav{
+  background-color: #CA661D;
+  height: 60px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 10;
+}
+
+a{
+  font-family: 'BMHANNAPro', sans-serif;
+  font-size: 25px;
+  Color: #FFA229;
+  text-decoration: none;
+}
+
+#img-and-overlay {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bgimg{
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(225, 109, 0, 0.4); 
+  pointer-events: none; 
+  z-index: 2;
+}
+
+#brownline{
+  position: relative;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 40px; 
+  background-color: #581915;
+  z-index: 2; 
+}
+
+#titleone{
+  font-family: 'BMHANNAPro', sans-serif;
+  font-size: 90px;
+  color: #581915;
+  position: relative;
+  text-align: center;
+  top: -440px;
+  z-index: 4;
+  text-decoration: underline;
+  text-decoration-color: #581915;
+  text-decoration-style: solid;
+  text-underline-offset: 17%;
+}
+
+h3{
+  font-family: 'BMHANNAPro', sans-serif;
+  font-size: 30px;
+  color: #581915;
+  position: relative;
+  text-align: center;
+  top: -440px;
+  z-index: 4;
+  margin-top: 35px;
+  letter-spacing: 5px;
+}
+
+#yellowbody{
+  width: 100%;
+  height: 2900px;
+  background-color: #8C011B;    
+  position: relative; 
+  z-index: 0;
+  top: -160px;
+}
+
+#brownsquare{
+  width: 80%;
+  height: 540px;
+  background-color: #591815;    
+  position: relative; 
+  z-index: 2;
+  top: -2970px;
+}
+
+
+p{
+  font-family: "Poor Story", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  margin-left: 5%;
+  margin-right: 49%;
+  color: #FFA129;
+  position: relative;
+  z-index: 4;
+  top: -3420px;
+}
+
+.highlight {
+  font-size: 1.5em;
+  color: #FFB04B;
+}
+
+#photosection{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+#cupimage {
+  position: relative; 
+  display: inline-block;
+  width: 340px; 
+  height: auto;
+  top: -3975px;
+  left: 320px;
+}
+
+#cupimage img {
+  width: 100%; 
+  position: relative;
+  top: 0; 
+  left: 0; 
+  z-index: 3; 
+}
+
+#shadow {
+  position: absolute; 
+  top: 13px; 
+  left: 15px;
+  width: 100%; 
+  height: 100%; 
+  background: #FFA129; 
+  z-index: 2; 
+}
+
+#photosectiontwo{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+#makeimage{
+  position: relative; 
+  display: inline-block;
+  width: 400px; 
+  height: auto;
+  top: -4010px;
+  right: 310px;
+  margin-top: 5%;
+}
+
+#makeimage img{
+  width: 100%; 
+  position: relative;
+  top: 0; 
+  left: 0; 
+  z-index: 3; 
+}
+
+#shadowtwo{
+  position: absolute; 
+  top: 14px; 
+  right: 15px;
+  width: 100%; 
+  height: 100%; 
+  background: #FFA129; 
+  z-index: 2; 
+}
+
+#secondtext{
+  margin-left: 53%;
+  margin-right: 8%;
+  top: -4560px;
+}
+
+.highlighttwo {
+  font-size: 1.5em;
+  color: #451210;
+}
+
+#thirdtext{
+  margin-left: 9%;
+  margin-right: 50%;
+  top: -4200px;
+  color: #FFB04B;
+}
+
+.highlightthree {
+  font-size: 1.5em;
+  color: #FF9D20;
+}
+
+#starsection {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  position: relative; 
+  top: -1380px;
+  left: -80px;
+}
+
+#star{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 40px; 
+  z-index: 2;
+  top: -3435px;
+  margin-left: 940px;
+  background-color: #FFA129;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 330px;
+}
+
+.review{
+  position: relative;
+  color: #591815;
+  z-index: 9;
+  margin-left: -340px;
+}
